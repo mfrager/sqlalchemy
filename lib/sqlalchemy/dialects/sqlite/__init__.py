@@ -5,7 +5,7 @@
 # This module is part of SQLAlchemy and is released under
 # the MIT License: http://www.opensource.org/licenses/mit-license.php
 
-from . import base, pysqlite, pysqlcipher  # noqa
+from . import base, pysqlite, pysqlcipher, pysqlcipher3  # noqa
 
 from sqlalchemy.dialects.sqlite.base import (
     BLOB, BOOLEAN, CHAR, DATE, DATETIME, DECIMAL, FLOAT, INTEGER, JSON, REAL,
